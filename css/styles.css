@@ -1,27 +1,79 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"); */
 
+* {
+  font-family: "Montserrat";
+}
 #title {
   background-color: #ff4c68;
 }
-
+#title {
+  color: #fff;
+}
 .container-fluid {
   padding: 3% 15%;
 }
 
 h1 {
-  font-family: "Montserrat";
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
-  color: #fff;
 }
 
-a {
-  font-family: "Montserrat";
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
 .navbar-brand {
-  color: #fff;
+  font-family: "Ubuntu";
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: bold;
 }
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+}
+.features-icons {
+  margin-bottom: 1rem;
+  size: 1.5rem;
+  color: #ef8172;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+.features-heading {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.features-text {
+  color: #8f8f8f;
+}
+
+
+/* Testimonial Section */
